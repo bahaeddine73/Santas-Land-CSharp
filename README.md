@@ -1,52 +1,33 @@
-# Compte rendu d’activité – Semaine du 15/12/2025
+# Santa's Land (Au pays du Père Noël)
 
-# Binôme : ACHOUR Bahaeddine – MAATALA Souhail
+A C# console application that simulates Santa's workshop. The program runs hour by hour and models the manufacturing, packaging and delivery of gifts, using queues and stacks.
 
-# Travail réalisé cette semaine
+## About
 
-# Finalisation du projet et correction des éléments manquants lors du dernier dépôt.
+University project (2nd year of Computer Science, University of Poitiers), done in pair.
 
-# • Finalisation de la simulation :
+## Features
 
-# • Ajout du calcul des pièces d’or par heure dans la méthode AvancerUneHeure(),
+- Hour-by-hour simulation of the workshop
+- Gift manufacturing, packaging and delivery steps
+- Use of data structures: queues and stacks
 
-# conformément au sujet. (MAATALA Souhail)
+## Technologies
 
-# • Mise en place du coût total et de l’historique des coûts horaires, qui avaient été oubliés
+- C#
+- .NET
 
-# lors du dernier dépôt.
+## How to run
 
-# • Gestion des périodes de repos :
+1. Install the [.NET SDK](https://dotnet.microsoft.com/download).
+2. Clone this repository.
+3. Open a terminal in the project folder and run:
 
-# • Ajout de l’attribut HeureDebutRepos dans les classes Lutin et Nain, afin de respecter
+   dotnet run
 
-# les contraintes temporelles du sujet (12h pour les lutins, 24h pour les nains). (ACHOUR
+You can also open the project in Visual Studio or VS Code and run it from there.
 
-# Bahaedinne et MAATALA Souhail respectivement)
+## Authors
 
-# • Méthodes de gestion du personnel :
-
-# • Implémentation de la méthode ModifierNombreLutins().
-
-# 'Elle permet de mettre des lutins en repos ou d’en rappeler en respectant les règles du
-
-# sujet. (ACHOUR Bahaeddine)
-
-# • Implémentation de la méthode ModifierNombreNains(), sur le même principe que celle
-
-# des lutins, avec la contrainte des 24 heures de repos.(MAATALA Souhail)
-
-# • Nous avons ajouté une variable HeureGlobale afin de corriger un problème dans la
-
-# gestion du repos des lutins et des nains. L’utilisation de HeureActuelle, réinitialisée à
-
-# chaque changement de jour, empêchait le rappel des employés après 12 ou 24 heures.
-
-# HeureGlobale, incrémentée à chaque heure et non réinitialisée, permet désormais de
-
-# calculer correctement la durée du repos et d’assurer le passage de l’état repos à actif.
-
-
-
-
-
+- Bahaeddine Achour
+- Maatala souhail

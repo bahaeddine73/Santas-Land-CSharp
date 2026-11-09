@@ -46,31 +46,7 @@
 
 # calculer correctement la durée du repos et d’assurer le passage de l’état repos à actif.
 
-# (MAATALA Souhail)
 
-# Difficultés rencontrées
-
-# • Oublis fonctionnels :
-
-# Certaines fonctionnalités importantes (calcul des coûts) avaient été oubliées lors du précédent
-
-# dépôt et ont dû être réintégrées proprement sans casser la logique existante.
-
-# • Respect strict du sujet :
-
-# La gestion des temps de repos a nécessité une relecture attentive du sujet afin d’éviter toute
-
-# incohérence entre lutins et nains.
-
-# Bilan : Cette dernière semaine nous a permis :
-
-# • de rendre le projet conforme au cahier des charges,
-
-# • de compléter les fonctionnalités manquantes,
-
-# • et de finaliser une simulation cohérente et fonctionnelle.
-
-# Perspective : la préparation de la présentation orale
 
 
 
